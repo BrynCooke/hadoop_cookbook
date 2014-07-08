@@ -17,7 +17,8 @@
 # limitations under the License.
 #
 
-major_platform_version = node['platform_version'].to_i
+major_platform_version = 12
+
 key = 'RPM-GPG-KEY'
 
 # Ensure that we have the proper LWRPs available
